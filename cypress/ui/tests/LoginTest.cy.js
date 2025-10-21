@@ -19,8 +19,12 @@ describe("Sanity suite", () => {
 
         Login.addUsername("dinithjayasekara5@live.com");
         Login.addPassword("Testdinith@123");
+          Login.getEmailInputText().should('have.text', "EMAIL");
         Login.clickLoginButton();
         Login.getAllSessionText().should('have.text', "UPCOMING");
+
+  
+
 
     
 

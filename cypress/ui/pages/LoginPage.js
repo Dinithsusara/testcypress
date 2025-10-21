@@ -21,6 +21,10 @@ export class LoginPage {
         return cy.get("[id='controlled-tab-example-tab-upcoming']");
     }
 
+    email_input_text(){
+        return cy.xpath("//span[text()='EMAIL']")
+    }
+
 
 
 

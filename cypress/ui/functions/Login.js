@@ -29,9 +29,16 @@ static checkLogoVisible(){
 
 
 static getAllSessionText(){
-    return this.loginpage.getAllSessionText();
+    return this.loginpage.all_session_text();
 
 
+
+}
+
+
+static getEmailInputText(){
+
+    return this.loginpage.email_input_text();
 
 }
 }
